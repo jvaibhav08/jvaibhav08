@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/jvaibhav08/jvaibhav08/main/assets/cinematic-workspace.jpg" alt="Cinematic 3D digital workspace" width="100%" />
+<img src="https://raw.githubusercontent.com/jvaibhav08/jvaibhav08/main/assets/cinematic-workspace.svg" alt="Cinematic 3D digital workspace" width="100%" />
 
 # VAIBHAV JHA
 
