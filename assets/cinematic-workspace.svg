@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="520" viewBox="0 0 1400 520">
+<defs>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#07131b"/><stop offset=".55" stop-color="#0b2028"/><stop offset="1" stop-color="#10151e"/></linearGradient>
+ <linearGradient id="glass" x2="1" y2="1"><stop stop-color="#a7fff4" stop-opacity=".28"/><stop offset=".5" stop-color="#2ba9b3" stop-opacity=".12"/><stop offset="1" stop-color="#f4a36a" stop-opacity=".22"/></linearGradient>
+ <linearGradient id="screen" x2="0" y2="1"><stop stop-color="#102b37"/><stop offset="1" stop-color="#071018"/></linearGradient>
+ <linearGradient id="amber" x2="1"><stop stop-color="#f7b36b"/><stop offset="1" stop-color="#c96b38"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="13"/></filter>
+ <filter id="shadow"><feGaussianBlur stdDeviation="7"/></filter>
+ <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0V34" fill="none" stroke="#6ed8d0" stroke-opacity=".09" stroke-width="1"/></pattern>
+</defs>
+<rect width="1400" height="520" fill="url(#bg)"/>
+<rect width="1400" height="520" fill="url(#grid)"/>
+<circle cx="1020" cy="220" r="230" fill="#1d8990" opacity=".12" filter="url(#glow)"/>
+<circle cx="1230" cy="80" r="150" fill="#d78048" opacity=".12" filter="url(#glow)"/>
+<!-- distant architectural frames -->
+<path d="M770 0V360M815 0V360M1320 0V350M1360 0V350" stroke="#9cd6d0" stroke-opacity=".14" stroke-width="3"/>
+<path d="M770 92H1400M770 182H1400" stroke="#9cd6d0" stroke-opacity=".08"/>
+<!-- horizon -->
+<path d="M760 325L900 260 1000 292 1115 225 1235 275 1400 185V400H760Z" fill="#132d37"/>
+<path d="M760 325L900 260 1000 292 1115 225 1235 275 1400 185" fill="none" stroke="#59c9c4" stroke-opacity=".42" stroke-width="2"/>
+<!-- floor -->
+<path d="M0 395L1400 340V520H0Z" fill="#071017"/>
+<path d="M0 395L1400 340" stroke="#e89a60" stroke-opacity=".5" stroke-width="2"/>
+<path d="M650 440L1400 410M740 480L1400 454M920 520L1400 500" stroke="#4cb9b7" stroke-opacity=".15"/>
+<!-- desk -->
+<path d="M590 352L1310 328 1400 360 1400 392 600 420Z" fill="#101d23" stroke="#6bb9b2" stroke-opacity=".45" stroke-width="2"/>
+<path d="M600 420L1310 392 1310 410 600 440Z" fill="#050b10"/>
+<path d="M760 420V510M1260 396V500" stroke="#172a31" stroke-width="16"/>
+<!-- monitor glow and monitor -->
+<ellipse cx="1040" cy="315" rx="240" ry="30" fill="#35bdb7" opacity=".15" filter="url(#glow)"/>
+<path d="M790 82L1232 49 1245 286 801 317Z" fill="#02070b" stroke="#5bc8c0" stroke-opacity=".65" stroke-width="3"/>
+<path d="M806 96L1217 66 1228 270 817 300Z" fill="url(#screen)"/>
+<path d="M830 121L950 112M830 140L1000 127M830 159L930 152M830 178L985 167M830 197L960 190" stroke="#54c8c1" stroke-opacity=".65" stroke-width="3"/>
+<path d="M840 216L1035 201M840 235L990 225M840 254L1020 243" stroke="#e6a36b" stroke-opacity=".55" stroke-width="2"/>
+<!-- luminous 3d wireframe world on screen -->
+<path d="M1030 250L1112 116 1190 222 1110 272Z" fill="#1c9c9a" fill-opacity=".12" stroke="#5ce1d4" stroke-width="2"/>
+<path d="M1030 250L1110 272 1190 222M1112 116L1110 272M1070 182L1150 170M1050 218L1170 196" fill="none" stroke="#5ce1d4" stroke-opacity=".75" stroke-width="1.5"/>
+<path d="M1050 251L1112 145 1174 222" fill="none" stroke="#d9a06b" stroke-opacity=".8" stroke-width="1.5"/>
+<!-- monitor stand -->
+<path d="M1000 310L1005 348 1090 344 1095 303" fill="#172a31" stroke="#3d8585"/>
+<path d="M970 350L1125 345 1144 358 950 365Z" fill="#0b151b" stroke="#447d7b"/>
+<!-- keyboard -->
+<path d="M820 368L1090 358 1160 375 885 389Z" fill="#101c22" stroke="#53aaa5" stroke-opacity=".55"/>
+<path d="M850 371L1080 364M860 378L1090 371M875 384L1100 377" stroke="#d88b54" stroke-opacity=".65" stroke-width="2"/>
+<!-- floating AI glass cube -->
+<ellipse cx="1250" cy="335" rx="72" ry="15" fill="#38c5bd" opacity=".24" filter="url(#glow)"/>
+<path d="M1190 240L1252 204 1315 239 1253 276Z" fill="url(#glass)" stroke="#82e9df" stroke-width="2"/>
+<path d="M1190 240V309L1253 347V276Z" fill="#167b80" fill-opacity=".24" stroke="#70dcd2" stroke-width="2"/>
+<path d="M1315 239V308L1253 347V276Z" fill="#e48d56" fill-opacity=".16" stroke="#e9a16d" stroke-width="2"/>
+<path d="M1253 276V347" stroke="#c5fff3" stroke-opacity=".6"/>
+<text x="1253" y="292" text-anchor="middle" font-family="Arial,sans-serif" font-size="28" font-weight="bold" fill="#b5fff4">AI</text>
+<!-- small glowing lamp -->
+<path d="M710 322V360M690 360H730" stroke="#b5a17d" stroke-width="4"/>
+<rect x="695" y="292" width="30" height="29" rx="6" fill="#f5b46e"/>
+<rect x="695" y="292" width="30" height="29" rx="6" fill="#f5b46e" opacity=".6" filter="url(#glow)"/>
+<!-- mug -->
+<path d="M650 350H704V400H650Z" fill="#101e25" stroke="#d58a52" stroke-width="2"/>
+<path d="M704 360Q735 355 725 384Q718 400 704 390" fill="none" stroke="#d58a52" stroke-width="4"/>
+<path d="M665 370L685 370" stroke="#e79b5c" stroke-width="3"/>
+<!-- floating glass geometric sculpture left -->
+<path d="M110 180L210 118 310 180 210 242Z" fill="url(#glass)" stroke="#67d6ce" stroke-opacity=".65" stroke-width="2"/>
+<path d="M110 180V294L210 352V242Z" fill="#176a73" fill-opacity=".2" stroke="#67d6ce" stroke-opacity=".55" stroke-width="2"/>
+<path d="M310 180V294L210 352V242Z" fill="#c77d4d" fill-opacity=".13" stroke="#d99563" stroke-opacity=".55" stroke-width="2"/>
+<path d="M210 118V242M110 180L210 242 310 180" fill="none" stroke="#a3fff0" stroke-opacity=".65"/>
+<circle cx="210" cy="235" r="105" fill="#32b6b1" opacity=".1" filter="url(#glow)"/>
+<!-- left typography -->
+<text x="65" y="75" fill="#64d4ca" font-family="monospace" font-size="22" letter-spacing="2">&gt; digital_workspace.init()</text>
+<text x="65" y="150" fill="#f0f4f2" font-family="Arial,sans-serif" font-size="64" font-weight="700" letter-spacing="-2">BUILD THE</text>
+<text x="65" y="220" fill="#f0f4f2" font-family="Arial,sans-serif" font-size="64" font-weight="700" letter-spacing="-2">NEXT <tspan fill="#e69a5e">DIMENSION.</tspan></text>
+<text x="68" y="265" fill="#a9c0c1" font-family="Arial,sans-serif" font-size="21">WEB DEVELOPMENT  /  AI &amp; GENAI</text>
+<path d="M68 290H430" stroke="#e39a60" stroke-width="3"/>
+<text x="68" y="330" fill="#c4d2d2" font-family="Arial,sans-serif" font-size="17">Full-stack systems. Intelligent experiences.</text>
+<text x="68" y="356" fill="#c4d2d2" font-family="Arial,sans-serif" font-size="17">One idea at a time.</text>
+<!-- ambient particles -->
+<g fill="#8cf4e6"><circle cx="440" cy="92" r="2"/><circle cx="540" cy="180" r="2"/><circle cx="740" cy="120" r="2"/><circle cx="1160" cy="30" r="2"/><circle cx="1350" cy="290" r="2"/></g>
+</svg>
